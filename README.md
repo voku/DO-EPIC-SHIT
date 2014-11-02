@@ -1,4 +1,4 @@
-DO-EPIC-SHIT
-============
+DO EPIC SHIT!
+=============
 
-Presentation: Open Source Workflow für Webdeveloper (OpenRheinRuhr 2014)
+Vortrag über Open Source Workflow für Webdeveloper
