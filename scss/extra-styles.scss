@@ -48,7 +48,8 @@ body {
 		border: none;
 		background: transparent;
 		box-shadow: none;
-		filter: drop-shadow(0 0 1px #CCC) drop-shadow(0 0 10px #FFF);
+    border: 1px solid #666;
+		//filter: drop-shadow(0 0 1px #CCC) drop-shadow(0 0 10px #FFF);
 	}
 
 	li {
