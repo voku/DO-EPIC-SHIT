@@ -1,0 +1,6 @@
+.idea
+.vagrant
+.sass-cache
+node_modules
+workfolder
+*.sublime-*
