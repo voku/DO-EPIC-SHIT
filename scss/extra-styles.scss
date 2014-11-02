@@ -15,7 +15,7 @@ body {
 
 		html.inverted & {
 			color: #FFF;
-			text-shadow: 1px 1px 2px #000, 1px -1px 2px #000, -1px -1px 2px #000, -1px 1px 2px #000,0 0 4px #000,0 0 4px #000, 0 0 4px #000, 0 0 4px #000, 0 0 8px rgba(0,0,0,.5), 0 0 8px rgba(0,0,0,.5), 0 0 8px rgba(0,0,0,.5);
+			text-shadow: 1px 1px 2px #000, 1px -1px 2px #000, -1px -1px 2px #000, -1px 1px 2px #000,0 0 4px #000,0 0 4px #000, 0 0 4px #000, 0 0 4px #000, 0 0 8px rgba(0,0,0,.6), 0 0 8px rgba(0,0,0,.6), 0 0 8px rgba(0,0,0,.6);
 		}
 	}
 
@@ -25,7 +25,7 @@ body {
 		max-height: 700px;
 		filter: none;
 		text-shadow: none;
-		box-shadow: inset 0 0 0 2px #666, 0 0 4px 1px rgba(0,0,0,.5);
+		box-shadow: inset 0 0 0 2px #666, 0 0 4px 1px rgba(0,0,0,.6);
 	}
 
 	html.faded & .backgrounds {
@@ -100,7 +100,7 @@ body {
 		border-collapse: collapse;
 
 		tr:nth-child(even) {
-			background: rgba(255,255,255,.5);
+			background: rgba(255,255,255,.6);
 		}
 		th, td {
 			text-align:  left;

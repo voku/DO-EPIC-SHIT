@@ -23,7 +23,7 @@ body {
 }
 html.inverted .reveal h1, html.inverted .reveal h2, html.inverted .reveal h3, html.inverted .reveal h4, html.inverted .reveal h5, html.inverted .reveal h6, html.inverted .reveal ol, html.inverted .reveal ul, html.inverted .reveal p, html.inverted .reveal table, html.inverted .reveal pre {
   color: #FFF;
-  text-shadow: 1px 1px 2px #000, 1px -1px 2px #000, -1px -1px 2px #000, -1px 1px 2px #000, 0 0 4px #000, 0 0 4px #000, 0 0 4px #000, 0 0 4px #000, 0 0 8px rgba(0, 0, 0, 0.5), 0 0 8px rgba(0, 0, 0, 0.5), 0 0 8px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px #000, 1px -1px 2px #000, -1px -1px 2px #000, -1px 1px 2px #000, 0 0 4px #000, 0 0 4px #000, 0 0 4px #000, 0 0 4px #000, 0 0 8px rgba(0, 0, 0, 0.6), 0 0 8px rgba(0, 0, 0, 0.6), 0 0 8px rgba(0, 0, 0, 0.6);
 }
 .reveal pre code {
   font-size: 60px;
@@ -31,7 +31,7 @@ html.inverted .reveal h1, html.inverted .reveal h2, html.inverted .reveal h3, ht
   max-height: 700px;
   filter: none;
   text-shadow: none;
-  box-shadow: inset 0 0 0 2px #666, 0 0 4px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 2px #666, 0 0 4px 1px rgba(0, 0, 0, 0.6);
 }
 html.faded .reveal .backgrounds {
   opacity: 0.5;
@@ -95,7 +95,7 @@ html.grayscaled .reveal .backgrounds {
   border-collapse: collapse;
 }
 .reveal .datatable + table tr:nth-child(even) {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.6);
 }
 .reveal .datatable + table th, .reveal .datatable + table td {
   text-align: left;

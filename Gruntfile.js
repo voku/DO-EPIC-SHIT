@@ -1,42 +1,48 @@
 module.exports = function(grunt) {
 
-    grunt.initConfig({
-        sass: {
-            dist: {
-                options: {
-                    style: 'expanded'
-                },
-                files: [{
-                    expand: true,
-                    cwd: 'scss',
-                    src: ['extra-styles.scss'],
-                    dest: 'css',
-                    ext: '.css'
-                }]
-            }
+  grunt.initConfig({
+    sass: {
+      dist: {
+        options: {
+          style: 'expanded'
         },
-        autoprefixer: {
-            options: {
-                browsers: ['last 999 version']
-            },
-            no_dest: {
-                src: 'css/extra-style.css'
-            }
-        },
-        watch: {
-            sass: {
-                files: ['scss/extra-styles.scss'],
-                tasks: ['sass','autoprefixer'],
-                options: {
-                    spawn: false
-                }
-            }
+        files: [{
+          expand: true,
+          cwd: 'scss',
+          src: ['extra-styles.scss'],
+          dest: 'css',
+          ext: '.css'
+        }]
+      }
+    },
+    autoprefixer: {
+      options: {
+        browsers: ['last 999 version']
+      },
+      no_dest: {
+        src: 'css/extra-style.css'
+      }
+    },
+    watch: {
+      sass: {
+        files: ['scss/extra-styles.scss'],
+        tasks: ['sass','autoprefixer'],
+        options: {
+          spawn: false
         }
-    });
+      }
+    },
+    serve: {
+      options: {
+        port: 9000
+      }
+    }
+  });
 
-    grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-autoprefixer');
-    grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-autoprefixer');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-serve');
 
-    grunt.registerTask('default', ['sass','autoprefixer']);
+  grunt.registerTask('default', ['sass','autoprefixer', 'serve']);
 };
