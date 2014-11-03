@@ -117,6 +117,8 @@ git push
 git log
 ```
 
+Info: <gitignore.io>
+
 ---
 # git (gui)
 
@@ -173,7 +175,7 @@ TODO -> add image
 # OpenSource-Software für Backend-Developer
 
 <ul>
-<liclass="fragment">Design-Pattern (z.B.: Factory Pattern, Observer Pattern, Strategy Pattern ...)
+<li class="fragment">Design-Pattern (z.B.: Factory Pattern, Observer Pattern, Strategy Pattern ...)
 <li class="fragment">MVC (Model-View-Controller)
 <li class="fragment">Frameworks / Mico-Frameworks
 <li class="fragment">ORM (Object-Relational Mapping)
