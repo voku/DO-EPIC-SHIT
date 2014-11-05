@@ -5,12 +5,18 @@
 
 * Slides: [http://voku.github.io/webworker-workflow](http://voku.github.io/webworker-workflow)
 * Twitter: [@suckup_de](https://twitter.com/suckup_de)
-* Blog: [http://suckup.de](http://suckup.de)
+* Blog: [suckup.de](http://suckup.de/)
+* Ich: [moelleken.org](http://moelleken.org/)
 
 ---
 ## Thx for Support
 
-<ul>
-<li>
-<li>
-</ul>
+*
+*
+
+---
+
+## Bilde-Quellen
+
+* [devopsreactions.tumblr.com](http://devopsreactions.tumblr.com/)
+* [xkcd.com](http://xkcd.com/)
