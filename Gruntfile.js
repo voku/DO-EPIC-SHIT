@@ -28,7 +28,7 @@
 // use this if you want to recursively match all subfolders:
 // 'test/spec/**/*.js'
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   'use strict';
 
   // require it at the top and pass in the grunt instance
@@ -40,8 +40,7 @@ module.exports = function(grunt) {
 
     meta: {
       banner: '<%= pkg.name %> by <%= pkg.author %> (<%= grunt.template.today("yyyy-mm-dd, HH:MM") %>)',
-      bannerJS:
-      '/*\n' +
+      bannerJS: '/*\n' +
       ' * <%= meta.banner %>\n' +
       ' */'
     },
@@ -107,7 +106,7 @@ module.exports = function(grunt) {
         tasks: ['libsass:dist', 'autoprefixer', 'csswring:minify'],
         options: {
           livereload: true,
-          spawn : false       // for grunt-contrib-watch v0.5.0+, "nospawn: true" for lower versions.
+          spawn: false       // for grunt-contrib-watch v0.5.0+, "nospawn: true" for lower versions.
         }
       }
 
@@ -131,7 +130,7 @@ module.exports = function(grunt) {
   grunt.registerTask(
     'build',
     'Build this website ... yeaahhh!',
-    [ 'clean:build', 'libsass:dist', 'autoprefixer', 'csswring:minify', 'serve']
+    ['clean:build', 'libsass:dist', 'autoprefixer', 'csswring:minify', 'serve']
   );
 
 };
