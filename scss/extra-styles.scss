@@ -64,11 +64,13 @@ body {
 
 	section img,
 	section video {
-		border: none;
 		background: transparent;
 		box-shadow: none;
     border: 1px solid #666;
-		//filter: drop-shadow(0 0 1px #CCC) drop-shadow(0 0 10px #FFF);
+
+    &.no_border {
+      border: none;
+    }
 	}
 
 	li {

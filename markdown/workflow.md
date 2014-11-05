@@ -1,3 +1,7 @@
+# Open Source Workflow
+## Praxis
+
+---
 <!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted" -->
 
 # Werkzeugkasten
@@ -96,7 +100,7 @@ z.B.:
 
 ---
 # IDE || Editor
-## welche Einstellungen und Plugins sollte man nutzen
+## Welche Einstellungen und Plugins sollte man nutzen?
 
 * Code Linting / Code Hints
 * Code Highlighter
@@ -127,7 +131,7 @@ git blame
 # git - Tipps
 
 * ~/.gitconfig
-* core.autocrlf
+* core.autocrlf (true = Windows || input = Unix)
 * [github.com](http://github.com) / [gitlab.com](http://gitlab.com/)
 * [gitignore.io](http://gitignore.io/)
 * ["git bash" für Windows](http://msysgit.github.io/)
@@ -179,6 +183,11 @@ z.B.: SourceTree
 <span>[statista.com](http://www.statista.com/statistics/284202/mobile-phone-internet-user-penetration-worldwide/)</span>
 ---
 <!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted faded" -->
+<div class="width_img_wrapper_70">
+  ![mobile stats](images/rwd-iceberg.png)
+</div>
+---
+<!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted faded" -->
 
 # OpenSource-Software für Frontend-Developer
 <ul>
@@ -210,7 +219,7 @@ z.B.: SourceTree
 z.B.: für Web-Entwicklung (MySQL, PostgreSQL, PHP, Ruby, Python ...)
 [PuPHPet.com](https://puphpet.com/)
 
-![Vagrant](images/logo_vagrant.png)
+<img src="images/logo_vagrant.png" class="no_border" alt="Vagrant" />
 ---
 # OpenSource-Software für Backend-Developer
 

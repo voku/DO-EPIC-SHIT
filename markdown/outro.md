@@ -16,7 +16,8 @@
 
 ---
 
-## Bilde-Quellen
+## Bilder-Quellen
 
 * [devopsreactions.tumblr.com](http://devopsreactions.tumblr.com/)
 * [xkcd.com](http://xkcd.com/)
+* [maddesigns.de/responsive-workflow/](http://maddesigns.de/responsive-workflow/)

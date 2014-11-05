@@ -87,12 +87,13 @@ body {
   .reveal pre + pre {
     margin-top: -1em; }
   .reveal section img, .reveal section video {
-    border: none;
     background: transparent;
     -webkit-box-shadow: none;
        -moz-box-shadow: none;
             box-shadow: none;
     border: 1px solid #666; }
+    .reveal section img.no_border, .reveal section video.no_border {
+      border: none; }
   .reveal li {
     margin-bottom: 1rem; }
   .reveal table {

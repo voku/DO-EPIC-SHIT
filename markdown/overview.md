@@ -1,5 +1,5 @@
 # Open Source Workflow
-## Basics
+## Theorie
 
 ---
 <!-- .slide: data-background="images/reactions/tumblr_inline_mmrb6wlC0g1qz4rgp.gif" data-state="inverted faded" -->
