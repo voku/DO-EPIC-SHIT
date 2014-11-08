@@ -1,5 +1,6 @@
 # Beispiel:
-## [http://openrheinruhr.localhost](http://openrheinruhr.localhost/)
+## Demo: [openrheinruhr.suckup.de](http://openrheinruhr.suckup.de/)
+## Source: [github.com/voku/DO-EPIC-SHIT-Demo](https://github.com/voku/DO-EPIC-SHIT-Demo)
 
 ---
 <!-- .slide: data-background="images/backgrounds/shutterstock_201625775_b.jpg" data-state="inverted" -->
