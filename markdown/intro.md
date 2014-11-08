@@ -1,13 +1,15 @@
 <!-- .slide: data-background="images/reactions/himan-funny.gif" data-state="inverted" -->
-
-## Open Source Workflow für Webdeveloper
+<br /><br />
 <br /><br />
 # DO EPIC SHIT!
 
 <p class="fragment">
-  <strong>... and do it today!</strong>
+  <strong>
+    Open Source Workflow für Webentwickler
+  </strong>
 </p>
 ---
+<!-- .slide: data-background="images/backgrounds/shutterstock_150137660.jpg" data-state="inverted" -->
 
 <div class="animate-text">
   <div class="visible">

@@ -1,3 +1,9 @@
+<!-- .slide: data-background="images/reactions/tumblr_mnj888Jab71s6z99jo1_500.gif" data-state="inverted faded" -->
+<br /><br />
+<br /><br />
+# DO IT NOW. DO EPIC SHIT!
+
+---
 <!-- .slide: data-background="images/backgrounds/matrix.jpg" data-state="inverted faded" -->
 
 <br><br><br><br><br><br>
@@ -7,12 +13,6 @@
 * Twitter: [@suckup_de](https://twitter.com/suckup_de)
 * Blog: [suckup.de](http://suckup.de/)
 * Ich: [moelleken.org](http://moelleken.org/)
-
----
-## Thx for Support
-
-*
-*
 
 ---
 

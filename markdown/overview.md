@@ -1,10 +1,5 @@
-# Open Source Workflow
-## Theorie
-
----
-<!-- .slide: data-background="images/reactions/tumblr_inline_mmrb6wlC0g1qz4rgp.gif" data-state="inverted faded" -->
-
-# "Don’t repeat yourself"
+# Beispiel:
+## [http://openrheinruhr.localhost](http://openrheinruhr.localhost/)
 
 ---
 <!-- .slide: data-background="images/backgrounds/shutterstock_201625775_b.jpg" data-state="inverted" -->
@@ -14,6 +9,11 @@
 <div class="width_img_wrapper_25">
   ![KISS](images/xkcd/Bb1tvLFIAAExmZT.jpg)
 </div>
+
+---
+<!-- .slide: data-background="images/reactions/tumblr_inline_mmrb6wlC0g1qz4rgp.gif" data-state="inverted faded" -->
+
+# "Don’t repeat yourself"
 
 ---
 <!-- .slide: data-background="images/reactions/tumblr_inline_na61n7e6yw1raprkq.gif" data-state="inverted" -->
