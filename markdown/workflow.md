@@ -34,7 +34,6 @@
 <li>l / l. / lr / lf
 <li>cd.. / .. / ...
 <li>sgrep
-<li>date_*
 <li>lsport / llport
 <li>s foo.bar / v foo.bar
 <li>getclip / putclip
@@ -116,6 +115,9 @@ git status
 ```
 ```
 git branch
+```
+```
+git checkout
 ```
 ```
 git commit
