@@ -1,74 +1,77 @@
-<!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted" -->
+# Workflow & Toolchain
+
+---
+<!-- .slide: data-background="images/backgrounds/shutterstock_200991887_B.jpg" data-state="inverted" -->
 
 # Werkzeugkasten
 
-![Werkzeuge](images/werkzeuge.jpg)
+<div class="width_img_wrapper_60">
+  ![Werkzeuge](images/werkzeuge.jpg)
+</div>
 ---
-<!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted" -->
+<!-- .slide: data-background="images/backgrounds/shutterstock_200991887_B.jpg" data-state="inverted" -->
 
 # Werkzeugkasten
 
-![Open Source](images/Open-Source.png)
+<div class="width_img_wrapper_80">
+  ![Open Source](images/Open-Source.png)
+</div>
 ---
-<!-- .slide: data-background="images/backgrounds/system-fail.jpg" data-state="inverted" -->
 
 # Shell
-## dotfiles.github.com
+## [dotfiles.github.com](http://dotfiles.github.com)
 
-![where the magic happens](images/wherethemagichappens.jpg)
+<div class="width_img_wrapper_60">
+  ![where the magic happens](images/xkcd/wherethemagichappens.jpg)
+</div>
 ---
-<!-- .slide: data-background="images/reactions/rm-rf.gif" data-state="inverted" -->
+<!-- .slide: data-background="images/backgrounds/terminal.jpg" data-state="inverted faded grayscaled" -->
 
-# rm -rf /
----
-<!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted faded" -->
-
-## { https://github.com/voku/dotfiles/ }
+## [github.com/voku/dotfiles/](https://github.com/voku/dotfiles/)
 ### aliases
 
 <ul>
-<li>l / .l / lf / la / ll
-<li>cd / cd.. / cd ..
-<li>afind / sgrep
-<li>ps / psx / pst / pstree
+<li>l / l. / lr / lf
+<li>cd.. / .. / ...
+<li>sgrep
 <li>date_*
 <li>lsport / llport
 <li>s foo.bar / v foo.bar
 <li>getclip / putclip
 </ul>
+---
+<!-- .slide: data-background="images/reactions/rm-rf.gif" data-state="inverted" -->
 
+# rm -rf /
 
 ---
-<!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted faded" -->
+<!-- .slide: data-background="images/backgrounds/terminal.jpg" data-state="inverted faded grayscaled" -->
 
-## { https://github.com/voku/dotfiles/ }
+## [github.com/voku/dotfiles/](https://github.com/voku/dotfiles/)
 ### functions
 
 <ul>
 <li>passwdgen
 <li>ff
 <li>duh
-<li>t
-<li>lc / uc
-<li>netstat_*
 <li>phpserver / server
 <li>targz / extract
 </ul>
 
 
 ---
-<!-- .slide: data-background="images/reactions/tumblr_naibzc7Fvs1tyyep4o6_r1_250.gif" data-state="inverted faded grayscaled" -->
+<!-- .slide: data-background="images/reactions/tumblr_inline_mxzcnayKCb1raprkq.gif" data-state="inverted faded grayscaled" -->
 
 # lerne deine Wekzeuge gut zu nutzen
 
-<p class="fragment">
-und anzupassen!
-<br /><br />
-![where the magic happens](images/vim_syntax.jpg)
-</p>
+<h3 class="fragment">
+  . . . und selber anzupassen!
+</h3>
 
 ---
 ## mehr als jedes andere Werkzeug, solltest du deinen Editor kennen
+
+z.B.:
 
 | Editor        | Lizenz                  |
 |---------------|-------------------------|
@@ -76,13 +79,11 @@ und anzupassen!
 | Notepad++     | GPL                     |
 | Sublime Text  | proprietär (Shareware)  |
 | Brackets      | MIT                     |
-| Atom          | MIT                     |
 
 ---
-<!-- .slide: data-background="images/reactions/tumblr_inline_mmrb6wlC0g1qz4rgp.gif" data-state="inverted faded" -->
+## mehr als jedes andere Werkzeug, solltest du deine <span style="color: #e7ad52;">IDE</span> kennen
 
----
-## mehr als jedes andere Werkzeug, solltest du deine <span style="color: red;">IDE</span> kennen
+z.B.:
 
 | Editor        | Lizenz      |
 |---------------|-------------|
@@ -92,110 +93,197 @@ und anzupassen!
 | WebStorm      | Proprietär  |
 
 ---
-# IDE (Editor)
-## welche Einstellungen und Plugins sollte man nutzen
+# IDE || Editor
+## Welche Einstellungen und Plugins sollte man nutzen?
 
-<ul>
-<li>EditorConfig
-<li>Code Linting / Code Hints
-<li>Git (Git-Gutter)
-<li>Emmet (Zen-Coding)
-</ul>
+* Code Linting / Code Hints
+* Code Highlighter
+* [EditorConfig](http://editorconfig.org/)
+* Git (Git-Gutter)
+* Emmet (Zen-Coding)
+
 ---
 <!-- .slide: data-background="images/reactions/iTIoSEWMoiHEZ.gif" data-state="inverted faded" -->
 # git?
 
 ---
+<!-- .slide: data-background="images/backgrounds/terminal.jpg" data-state="inverted faded grayscaled" -->
+
 # git!
 
 ```
 git status
+```
+```
 git branch
+```
+```
 git commit
+```
+```
 git pull
+```
+```
 git push
+```
+
+---
+<!-- .slide: data-background="images/backgrounds/terminal.jpg" data-state="inverted faded grayscaled" -->
+
+# git!
+
+```
 git log
 ```
+```
+git diff
+```
+```
+git blame
+```
+```
+git cherry-pick
+```
 
 ---
-# git (gui)
+# git - Tipps
 
-TODO -> add image
-![SourceTree](images/todo.png)
+* ~/.gitconfig
+* core.autocrlf (true = Windows || input = Unix)
+* [github.com](http://github.com) / [gitlab.com](http://gitlab.com/)
+* [gitignore.io](http://gitignore.io/)
+* ["git bash" für Windows](http://msysgit.github.io/)
 
 ---
-# deploment via FTP
+# git - GUI
 
-![:)](images/reactions/tumblr_inline_n78ix43xHY1raprkq.gif)
+z.B.: SourceTree (Proprietär)
+
+![SourceTree](images/SourceTree.jpg)
+
 ---
-# deploment via Jenkins
+<!-- .slide: data-background="images/reactions/wrong-box.gif" data-state="inverted faded" -->
 
-![:)](images/reactions/tumblr_inline_muzu6hREgn1raprkq.gif)
+# deployment via "ftp"
+
+---
+<!-- .slide: data-background="images/reactions/tumblr_inline_muzu6hREgn1raprkq.gif" data-state="inverted faded" -->
+
+# deployment via "git"
+
+---
+<!-- .slide: data-background="images/reactions/tumblr_inline_mmawrllsKw1qz4rgp.gif" data-state="inverted faded" -->
+
+# deployment via "Jenkins"
+
+---
+# deployment via "Jenkins"
+
+<ul>
+  <li>automatische Tests (z.B.: Unit-Tests, UI-Tests, Integrationstest)
+  <li class="fragment">Code-Qualität (z.B.: kopierte Codeteile, globale Variablen)
+  <li class="fragment">prüfe auf Debug-Ausgaben (z.B.: "var_dump()", "console.log()")
+  <li class="fragment">Statistiken über die Code-Qualität
+  <li class="fragment">automatisches Deployment
+</ul>
+
+---
+<!-- .slide: data-background="images/backgrounds/shutterstock_195671744.jpg" data-state="inverted faded" -->
+
+# Statistiken über Mobile-Traffic
+## 2012 - 2014
+
+![mobile stats](images/mobile-stats_v1.jpg)
+
+<span>[www.trivago.com](http://www.codetalks.de/session_post/was-nicht-passt-wird-responsive-gemacht/)</span>
+
+---
+<!-- .slide: data-background="images/backgrounds/shutterstock_195671744.jpg" data-state="inverted faded" -->
+
+# Statistiken über Mobile-Traffic
+## 2012 - 2017
+
+![mobile stats](images/mobile-stats_v2.jpg)
+
+<span>[statista.com](http://www.statista.com/statistics/284202/mobile-phone-internet-user-penetration-worldwide/)</span>
+---
+<!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted faded" -->
+<div class="width_img_wrapper_70">
+  ![mobile stats](images/rwd-iceberg.png)
+</div>
 ---
 <!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted faded" -->
 
-# OpenSource-Software für Frontend-Developer
-
+# Open-Source-Software für Frontend-Entwickler
 <ul>
-<li class="fragment">Bower
-<li class="fragment">Grunt / Gulp
-<li class="fragment">Autoprefixer
-<li class="fragment">CSSWring
-<li class="fragment">LiveReload
-<li class="fragment">Karma / Jasmine / Mocha / DalekJS
-<li class="fragment">Yeoman
+  <li class="fragment">[Bower](http://bower.io/)
+  <li class="fragment">[Grunt](http://gruntjs.com/) / [Gulp](http://gulpjs.com/)
+  <li class="fragment">[Autoprefixer](https://github.com/postcss/autoprefixer) / [CSSWring](https://github.com/hail2u/node-csswring)
+  <li class="fragment">[LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)
+  <li class="fragment">[DevTools](http://discover-devtools.codeschool.com/)
+  <li class="fragment">Frontend-Testing (z.B.: [Karma](https://www.npmjs.org/package/karma) / [DalekJS](http://dalekjs.com/))
+  <li class="fragment">[Yeoman](http://yeoman.io/)
 </ul>
 ---
 <!-- .slide: data-background="images/backgrounds/shutterstock_4021051.jpg" data-state="inverted faded" -->
 
-# OpenSource-Software für Frontend-Developer
+# Open-Source-Software für Frontend-Entwickler
 
 <ul>
-<li class="fragment">SASS (libsass) / LESS
-<li class="fragment">normalize
-<li class="fragment">Bootstrap / Foundation
-<li class="fragment">Modernizr & [Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
-<li class="fragment">Fonts (z.B.: Google Fonts)
-<li class="fragment">jQuery (jQuery UI)
-<li class="fragment">Ionic / AngularJS
-<li class="fragment">Apache Cordova
+  <li class="fragment">Preprocessor (z.B.: [SASS](http://sass-lang.com/guide))
+  <li class="fragment">UI-Toolkit (z.B.: [normalize](https://github.com/necolas/normalize.css/) / [Bootstrap](http://getbootstrap.com/) / [Foundation](http://foundation.zurb.com/))
+  <li class="fragment">[Modernizr](http://modernizr.com/) & [Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
+  <li class="fragment">Fonts (z.B.: [Google Fonts](http://www.google.com/fonts#AboutPlace:about))
+  <li class="fragment">JavaScript-Frameworks (z.B.: [jQuery](http://jquery.com/), [AngularJS](https://angularjs.org/))
+  <li class="fragment">App-Frameworks (z.B.: [Apache Cordova](http://cordova.apache.org/), [Ionic](http://ionicframework.com/))
 </ul>
 ---
-# OpenSource-Software für Backend-Developer
+# Entwicklungsumgebung via [Vagrant](https://www.vagrantup.com/)
 
-## Vagrant
+<img src="images/logo_vagrant.png" class="no_border" alt="Vagrant" />
 
-TODO -> link to "puphpet.com"
-
-TODO -> add image
-![Vagrant](images/todo.png)
+<div class="fragment">
+  <strong>Tipp für Web-Entwickler:</strong>
+  <br />
+  [PuPHPet.com](https://puphpet.com/)  (MySQL, PostgreSQL, PHP, Ruby, Python ...)
+</div>
 ---
-# OpenSource-Software für Backend-Developer
+# Open-Source-Software für Backend-Entwickler (PHP)
 
 <ul>
-<liclass="fragment">Design-Pattern (z.B.: Factory Pattern, Observer Pattern, Strategy Pattern ...)
-<li class="fragment">MVC (Model-View-Controller)
-<li class="fragment">Frameworks / Mico-Frameworks
-<li class="fragment">ORM (Object-Relational Mapping)
-<li class="fragment">DB-Migration
-<li class="fragment">Unit-Tests (z.B.: PHPUnit)
+  <li class="fragment">[Design-Pattern](https://github.com/domnikl/DesignPatternsPHP) (z.B.: Factory Pattern, Observer Pattern, Strategy Pattern ...)
+  <li class="fragment">Frameworks (z.B.: [Symfony](symfony.com), [Laravel](http://laravel.com/)) / Mico-Frameworks (z.B.: [Slim Framework](http://www.slimframework.com/))
+  <li class="fragment">ORM {Object-Relational Mapping} (z.B.: [RedBeanPHP](http://redbeanphp.com/))
+  <li class="fragment">Datenbank-Migration (z.B.: [Ruckusing](https://github.com/ruckus/ruckusing-migrations))
+  <li class="fragment">Hook-System (z.B.: [von WordPress](https://github.com/voku/php-hooks))
+  <li class="fragment">Unit-Tests (z.B.: [PHPUnit](https://phpunit.de), JUnit, PyUnit ...)
 </ul>
 
 ---
-# OpenSource-Software für Backend-Developer (PHP)
+# Open-Source-Software für Backend-Entwickler (PHP)
+---
+## Composer
 
-## composer
-
+Installation:
 ```
-composer create-project redslim/redslim orr
+curl -sS https://getcomposer.org/installer | php
+```
+
+Beispiel:
+```
+composer create-project voku/DO-EPIC-SHIT-Demo orr
 ```
 ---
-# OpenSource-Software für Backend-Developer (PHP)
+## Xdebug
 
-## XDebug
+* Breakpoints
+* Stacktrace
+* Profiling
+* IDE-Integration
 
-XDebug bietet unter anderm Breakpoint / Stacktrace / Profiling und eine gute IDE-Integration.
-
-TODO -> add image
-![XDebug](images/todo.png)
 ---
+## CacheGrind
+
+Analyse der Profiling-Daten via "[Kcachegrind](http://kcachegrind.sourceforge.net/html/Home.html)" (Linux) || "[WinCacheGrind](http://ceefour.github.io/wincachegrind/)" (Windows)
+
+![Kcachegrind](images/Kcachegrind.jpg)

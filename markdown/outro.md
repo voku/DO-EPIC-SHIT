@@ -1,3 +1,9 @@
+<!-- .slide: data-background="images/reactions/tumblr_mnj888Jab71s6z99jo1_500.gif" data-state="inverted faded" -->
+<br /><br />
+<br /><br />
+# DO IT NOW. DO EPIC SHIT!
+
+---
 <!-- .slide: data-background="images/backgrounds/matrix.jpg" data-state="inverted faded" -->
 
 <br><br><br><br><br><br>
@@ -5,12 +11,13 @@
 
 * Slides: [http://voku.github.io/webworker-workflow](http://voku.github.io/webworker-workflow)
 * Twitter: [@suckup_de](https://twitter.com/suckup_de)
-* Blog: [http://suckup.de](http://suckup.de)
+* Blog: [suckup.de](http://suckup.de/)
+* Ich: [moelleken.org](http://moelleken.org/)
 
 ---
-## Thx for Support
 
-<ul>
-<li>
-<li>
-</ul>
+## Bilder-Quellen
+
+* [devopsreactions.tumblr.com](http://devopsreactions.tumblr.com/)
+* [xkcd.com](http://xkcd.com/)
+* [maddesigns.de/responsive-workflow/](http://maddesigns.de/responsive-workflow/)
