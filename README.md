@@ -3,6 +3,7 @@ DO EPIC SHIT!
 
 Vortrag über Open Source Workflow für Webdeveloper
 
-[Preview](http://voku.github.io/DO-EPIC-SHIT/)
+[Slides](http://voku.github.io/DO-EPIC-SHIT/)
 
-[Demo](https://github.com/voku/DO-EPIC-SHIT-Demo)
+[Demo](http://openrheinruhr.suckup.de/)
+[(source)](https://github.com/voku/DO-EPIC-SHIT-Demo/)
