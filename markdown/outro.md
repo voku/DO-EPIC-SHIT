@@ -9,7 +9,7 @@
 <br><br><br><br><br><br>
 ## Fragen?
 
-* Slides: [http://voku.github.io/webworker-workflow](http://voku.github.io/webworker-workflow)
+* Slides: [http://voku.github.io/DO-EPIC-SHIT](http://voku.github.io/DO-EPIC-SHIT)
 * Twitter: [@suckup_de](https://twitter.com/suckup_de)
 * Blog: [suckup.de](http://suckup.de/)
 * Ich: [moelleken.org](http://moelleken.org/)
